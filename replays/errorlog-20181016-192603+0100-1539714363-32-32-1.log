@@ -1,0 +1,34 @@
+
+Turn 3
+================================================================
+warning: entity 0 was directed to use 7 halite to move south, but only 0 halite was available
+At command 1 of 2:
+>>> 1   m 0 s
+    2   g
+
+
+Turn 5
+================================================================
+warning: entity 2 was directed to use 7 halite to move south, but only 0 halite was available
+At command 2 of 3:
+    1   m 0 e
+>>> 2   m 2 s
+    3   g
+
+
+Turn 6
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Last input received was:
+
+
+Bot error output was:
+Traceback (most recent call last):
+  File "MyBot.py", line 71, in <module>
+    game.end_turn(command_queue)
+  File "/mnt/c/Users/Michael/Downloads/Halite3_Python3_Linux-AMD64/hlt/networking.py", line 76, in end_turn
+    send_commands(commands)
+  File "/mnt/c/Users/Michael/Downloads/Halite3_Python3_Linux-AMD64/hlt/networking.py", line 85, in send_commands
+    print(" ".join(commands))
+TypeError: sequence item 1: expected str instance, bool found
+

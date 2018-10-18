@@ -1,0 +1,22 @@
+
+Turn 15
+================================================================
+warning: entity 4 was directed to use 8 halite to move west, but only 0 halite was available
+At command 1 of 4:
+>>> 1   m 4 w
+    2   m 0 s
+    3   m 2 o
+
+
+Turn 33
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Last input received was:
+
+
+Bot error output was:
+Traceback (most recent call last):
+  File "MyBot.py", line 61, in <module>
+    command_queue.append(intendMove(game_map.naive_navigate(ship, me.shipyard.position)))
+TypeError: intendMove() missing 1 required positional argument: 'direction'
+

@@ -1,0 +1,10 @@
+
+Turn 12
+================================================================
+warning: owned entities 7, 4 collided on cell (22, 15) as the result of moves on this turn
+At command 4 of 5:
+    2   m 2 n
+    3   m 9 s
+>>> 4   m 7 n
+    5   m 0 s
+

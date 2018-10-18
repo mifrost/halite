@@ -1,0 +1,9 @@
+
+Turn 122
+================================================================
+warning: owned entities 7, 9 collided on cell (4, 13) as the result of moves on this turn
+At command 5 of 5:
+    3   m 3 w
+    4   m 9 o
+>>> 5   m 7 w
+

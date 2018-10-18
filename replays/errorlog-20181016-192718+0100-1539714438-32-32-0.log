@@ -1,0 +1,17 @@
+
+Turn 4
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Last input received was:
+
+
+Bot error output was:
+Traceback (most recent call last):
+  File "MyBot.py", line 71, in <module>
+    game.end_turn(command_queue)
+  File "/mnt/c/Users/Michael/Downloads/Halite3_Python3_Linux-AMD64/hlt/networking.py", line 76, in end_turn
+    send_commands(commands)
+  File "/mnt/c/Users/Michael/Downloads/Halite3_Python3_Linux-AMD64/hlt/networking.py", line 85, in send_commands
+    print(" ".join(commands))
+TypeError: sequence item 0: expected str instance, bool found
+

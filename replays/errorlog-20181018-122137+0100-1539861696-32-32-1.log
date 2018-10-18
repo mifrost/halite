@@ -1,0 +1,10 @@
+
+Turn 10
+================================================================
+warning: owned entities 0, 2 collided on cell (21, 16) as the result of moves on this turn
+At command 4 of 5:
+    2   m 6 n
+    3   m 2 o
+>>> 4   m 0 n
+    5   m 8 n
+

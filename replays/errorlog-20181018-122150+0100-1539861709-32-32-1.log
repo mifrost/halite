@@ -1,0 +1,11 @@
+
+Turn 78
+================================================================
+warning: owned entities 2, 4 collided on cell (20, 18) as the result of moves on this turn
+At command 3 of 7:
+    1   m 11 s
+    2   m 4 o
+>>> 3   m 2 s
+    4   m 0 e
+    5   m 7 s
+

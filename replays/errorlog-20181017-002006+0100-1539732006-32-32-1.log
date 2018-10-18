@@ -1,0 +1,134 @@
+
+Turn 3
+================================================================
+warning: entity 0 was directed to use 6 halite to move north, but only 0 halite was available
+At command 1 of 2:
+>>> 1   m 0 n
+    2   g
+
+
+Turn 6
+================================================================
+warning: entity 2 was directed to use 2 halite to move west, but only 0 halite was available
+At command 3 of 3:
+    1   m 4 s
+    2   m 0 s
+>>> 3   m 2 w
+
+
+Turn 8
+================================================================
+warning: entity 4 was directed to use 3 halite to move north, but only 0 halite was available
+At command 1 of 3:
+>>> 1   m 4 n
+    2   m 0 n
+    3   m 2 e
+
+
+Turn 9
+================================================================
+warning: entity 0 was directed to use 4 halite to move east, but only 0 halite was available
+At command 2 of 4:
+    1   m 2 s
+>>> 2   m 0 e
+    3   m 4 e
+    4   g
+
+
+Turn 10
+================================================================
+warning: entity 4 was directed to use 9 halite to move west, but only 7 halite was available
+At command 1 of 4:
+>>> 1   m 4 w
+    2   m 2 w
+    3   m 7 s
+
+
+Turn 13
+================================================================
+warning: entity 2 was directed to use 8 halite to move north, but only 4 halite was available
+At command 1 of 5:
+>>> 1   m 2 n
+    2   m 9 e
+    3   m 4 o
+
+warning: entity 0 was directed to use 7 halite to move east, but only 5 halite was available
+At command 4 of 5:
+    2   m 9 e
+    3   m 4 o
+>>> 4   m 0 e
+    5   m 7 e
+
+
+Turn 14
+================================================================
+warning: entity 9 was directed to use 2 halite to move north, but only 0 halite was available
+At command 1 of 5:
+>>> 1   m 9 n
+    2   m 2 n
+    3   m 4 o
+
+warning: entity 7 was directed to use 4 halite to move west, but only 2 halite was available
+At command 4 of 5:
+    2   m 2 n
+    3   m 4 o
+>>> 4   m 7 w
+    5   m 0 e
+
+
+Turn 25
+================================================================
+warning: entity 9 was directed to use 6 halite to move north, but only 0 halite was available
+At command 3 of 5:
+    1   m 4 o
+    2   m 2 e
+>>> 3   m 9 n
+    4   m 0 n
+    5   m 7 e
+
+
+Turn 28
+================================================================
+warning: entity 9 was directed to use 5 halite to move south, but only 4 halite was available
+At command 4 of 5:
+    2   m 0 w
+    3   m 2 e
+>>> 4   m 9 s
+    5   m 4 o
+
+
+Turn 29
+================================================================
+warning: entity 0 was directed to use 5 halite to move east, but only 4 halite was available
+At command 1 of 5:
+>>> 1   m 0 e
+    2   m 7 o
+    3   m 2 o
+
+
+Turn 39
+================================================================
+warning: entity 9 was directed to use 5 halite to move south, but only 4 halite was available
+At command 2 of 5:
+    1   m 4 n
+>>> 2   m 9 s
+    3   m 2 o
+    4   m 7 w
+
+
+Turn 44
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Last input received was:
+
+
+Bot error output was:
+Traceback (most recent call last):
+  File "MyBot.py", line 62, in <module>
+    command_queue.append(intendMove(ship, Direction.convert(game_map.naive_navigate(ship, me.shipyard.position))))
+  File "MyBot.py", line 23, in intendMove
+    if not game_map[ship.position.directional_offset(direction)].is_occupied:
+  File "/mnt/c/Users/Michael/Downloads/Halite3_Python3_Linux-AMD64/hlt/positionals.py", line 75, in directional_offset
+    return self + Position(*direction)
+TypeError: __init__() missing 1 required positional argument: 'y'
+

@@ -1,0 +1,155 @@
+
+Turn 3
+================================================================
+warning: entity 0 was directed to use 2 halite to move north, but only 0 halite was available
+At command 1 of 1:
+>>> 1   m 0 n
+
+
+Turn 6
+================================================================
+warning: entity 0 was directed to use 2 halite to move south, but only 0 halite was available
+At command 1 of 2:
+>>> 1   m 0 s
+    2   g
+
+
+Turn 8
+================================================================
+warning: entity 3 was directed to use 3 halite to move north, but only 0 halite was available
+At command 2 of 3:
+    1   m 0 o
+>>> 2   m 3 n
+    3   g
+
+
+Turn 10
+================================================================
+warning: entity 5 was directed to use 1 halite to move south, but only 0 halite was available
+At command 2 of 4:
+    1   m 3 o
+>>> 2   m 5 s
+    3   m 0 n
+    4   g
+
+
+Turn 12
+================================================================
+warning: entity 7 was directed to use 5 halite to move east, but only 0 halite was available
+At command 2 of 4:
+    1   m 5 n
+>>> 2   m 7 e
+    3   m 0 o
+    4   m 3 n
+
+
+Turn 14
+================================================================
+warning: entity 5 was directed to use 6 halite to move east, but only 1 halite was available
+At command 2 of 5:
+    1   m 9 e
+>>> 2   m 5 e
+    3   m 7 o
+    4   m 0 s
+
+
+Turn 15
+================================================================
+warning: entity 9 was directed to use 1 halite to move south, but only 0 halite was available
+At command 1 of 5:
+>>> 1   m 9 s
+    2   m 3 o
+    3   m 5 o
+
+
+Turn 20
+================================================================
+warning: entity 9 was directed to use 3 halite to move north, but only 0 halite was available
+At command 1 of 5:
+>>> 1   m 9 n
+    2   m 5 n
+    3   m 3 w
+
+
+Turn 22
+================================================================
+warning: entity 9 was directed to use 9 halite to move west, but only 8 halite was available
+At command 1 of 5:
+>>> 1   m 9 w
+    2   m 5 s
+    3   m 3 o
+
+
+Turn 24
+================================================================
+warning: entity 5 was directed to use 9 halite to move north, but only 6 halite was available
+At command 3 of 5:
+    1   m 3 w
+    2   m 9 e
+>>> 3   m 5 n
+    4   m 0 s
+    5   m 7 o
+
+
+Turn 26
+================================================================
+warning: entity 9 was directed to use 2 halite to move north, but only 0 halite was available
+At command 3 of 5:
+    1   m 5 s
+    2   m 3 n
+>>> 3   m 9 n
+    4   m 0 e
+    5   m 7 o
+
+
+Turn 29
+================================================================
+warning: entity 9 was directed to use 8 halite to move south, but only 1 halite was available
+At command 2 of 5:
+    1   m 5 n
+>>> 2   m 9 s
+    3   m 3 o
+    4   m 0 n
+
+
+Turn 30
+================================================================
+warning: entity 5 was directed to use 9 halite to move west, but only 2 halite was available
+At command 1 of 5:
+>>> 1   m 5 w
+    2   m 0 o
+    3   m 7 o
+
+
+Turn 33
+================================================================
+warning: entity 9 was directed to use 6 halite to move east, but only 0 halite was available
+At command 1 of 5:
+>>> 1   m 9 e
+    2   m 5 n
+    3   m 3 w
+
+
+Turn 36
+================================================================
+warning: entity 9 was directed to use 5 halite to move east, but only 4 halite was available
+At command 3 of 5:
+    1   m 5 w
+    2   m 3 n
+>>> 3   m 9 e
+    4   m 0 o
+    5   m 7 o
+
+
+Turn 38
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Last input received was:
+
+
+Bot error output was:
+Traceback (most recent call last):
+  File "MyBot.py", line 60, in <module>
+    command_queue.append(intendMove(game_map.naive_navigate(ship, me.shipyard.position)))
+TypeError: intendMove() missing 1 required positional argument: 'direction'
+

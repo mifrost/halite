@@ -1,0 +1,15 @@
+
+Turn 2
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Last input received was:
+
+
+Bot error output was:
+Traceback (most recent call last):
+  File "MyBot.py", line 68, in <module>
+    collision_free_move = intendMove(ship, random.choice([ Direction.North, Direction.South, Direction.East, Direction.West ]))
+  File "MyBot.py", line 25, in intendMove
+    logging.warning("Ship " + str(ship.id) + " is currently at " + str(ship.position) + " and will move to " + str(targetCell) + " which is_occupied " + str(targetCell.is_occupied) + " and has_structure " + str(targetCell.has_structure) + " and ship halite is " + str(ship.halite_amount) + " and source cell halite is " + str(game_map[sourceCell].halite_amount) + " and has_enough_halite " + has_enough_halite)
+TypeError: must be str, not bool
+

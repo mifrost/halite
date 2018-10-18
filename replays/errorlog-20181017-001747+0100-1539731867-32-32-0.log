@@ -1,0 +1,27 @@
+
+Turn 17
+================================================================
+warning: entity 8 was directed to use 9 halite to move south, but only 0 halite was available
+At command 4 of 5:
+    2   m 6 o
+    3   m 3 o
+>>> 4   m 8 s
+    5   m 1 n
+
+
+Turn 21
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Last input received was:
+
+
+Bot error output was:
+Traceback (most recent call last):
+  File "MyBot.py", line 61, in <module>
+    command_queue.append(intendMove(ship, Direction.convert(game_map.naive_navigate(ship, me.shipyard.position))))
+  File "MyBot.py", line 22, in intendMove
+    if not game_map[ship.position.directional_offset(direction)].is_occupied:
+  File "/mnt/c/Users/Michael/Downloads/Halite3_Python3_Linux-AMD64/hlt/positionals.py", line 75, in directional_offset
+    return self + Position(*direction)
+TypeError: __init__() missing 1 required positional argument: 'y'
+

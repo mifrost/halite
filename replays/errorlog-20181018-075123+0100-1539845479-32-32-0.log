@@ -1,0 +1,9 @@
+
+Turn 266
+================================================================
+warning: owned entities 3, 11 collided on cell (2, 16) as the result of moves on this turn
+At command 12 of 12:
+    10   m 22 w
+    11   m 20 w
+>>> 12   m 3 s
+

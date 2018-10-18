@@ -1,0 +1,10 @@
+
+Initialization Phase
+================================================================
+error: communication error with bot: read failed, errno was: 0 (Success)
+Bot error output was:
+  File "MyBot.py", line 25
+    if override or (ship.halite < (targetCell.halite_amount * 0.1) not targetCell.is_occupied and not targetCell.has_structure):
+                                                                                ^
+SyntaxError: invalid syntax
+

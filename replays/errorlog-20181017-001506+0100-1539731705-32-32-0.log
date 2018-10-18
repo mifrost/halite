@@ -1,0 +1,22 @@
+
+Turn 18
+================================================================
+warning: entity 8 was directed to use 6 halite to move south, but only 0 halite was available
+At command 3 of 5:
+    1   m 3 o
+    2   m 5 o
+>>> 3   m 8 s
+    4   m 1 n
+    5   m 6 w
+
+
+Turn 21
+================================================================
+warning: entity 8 was directed to use 7 halite to move north, but only 6 halite was available
+At command 3 of 5:
+    1   m 5 o
+    2   m 3 o
+>>> 3   m 8 n
+    4   m 1 n
+    5   m 6 o
+
